@@ -6,6 +6,8 @@ $files = @()
 $wsl_folders = @(
     # WSL OSes from the Windows Store
     "$env:LOCALAPPDATA\Packages",
+    # Distributions from wsl.exe --install
+    "$env:LOCALAPPDATA\wsl",
     # The Docker WSL files
     "$env:LOCALAPPDATA\Docker"
 )
